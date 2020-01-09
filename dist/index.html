@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>哆啦A梦</title>
+</head>
+
+<body>
+    <style id="demo2"></style>
+    <div id="demo"></div>
+    <div id="buttons">
+        <button id="btnPause">暂停</button>
+        <button id="btnPlay">播放</button>
+        <button id="btnSlow">慢速</button>
+        <button id="btnNormal">中速</button>
+        <button id="btnFast">快速</button>
+    </div>
+    <style>* {
+            box-sizing: border-box;
+        }
+
+        *::before,
+        *::after {
+            box-sizing: border-box;
+        }
+
+        #buttons {
+            position: fixed;
+            right: 0;
+            top: 0;
+            z-index: 10;
+            display: flex;
+            flex-direction: column;
+            margin-top: 10px;
+            margin-right: 10px;
+        }
+
+        #buttons>button {
+            margin-bottom: 10px;
+            padding: 4px 8px;
+        }
+
+        #demo2 {
+            display: none;
+        }
+
+        #demo {
+            position: fixed;
+            height: 50vh;
+            top: 0;
+            left: 0;
+            width: 100%;
+            border: 1px solid red;
+            overflow-y: auto;
+        }
+
+        #demo::-webkit-scrollbar {
+            display: none;
+        }
+
+        #html {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 50vh;
+        }</style>
+    <div id="html">
+        <div class="face1">
+            <div class="face2">
+                <div class="eye left"></div>
+                <div class="eye right"></div>
+                <div class="nose">
+                    <div class="shadow"></div>
+                </div>
+                <div class="whisker top left"></div>
+                <div class="whisker top right"></div>
+                <div class="whisker mid left"></div>
+                <div class="whisker mid right"></div>
+                <div class="whisker bottom left"></div>
+                <div class="whisker bottom right"></div>
+                <div class="mouth1"></div>
+                <div class="mouth2"></div>
+            </div>
+        </div>
+        <div class="collar">
+            <div class="bell1">
+                <div class="bell2"></div>
+                <div class="bell3"></div>
+            </div>
+        </div>
+        <script src="test.b2b7f21c.js"></script>
+        <script src="main.dfc06931.js"></script>
+    </div>
+</body>
+
+</html>
